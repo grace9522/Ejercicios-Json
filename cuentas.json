@@ -1,0 +1,36 @@
+{
+  "clientes": [
+    {
+      "dni": "538568",
+      "nombre": "Samantha Bauch",
+      "cuentas": [
+        {
+          "numero": 2341231234,
+          "saldo": 435.68,
+          "cliente": "538568"
+        },
+        {
+          "numero": 1458523523,
+          "saldo": 710.65,
+          "cliente": "538568"
+        }
+      ],
+      "prestamos": [
+        {
+          "id": 1,
+          "principal": 2341231234,
+          "plazo-en-meses": 24,
+          "cliente": 538568,
+          "fecha-comienzo": "25/03/2020"
+        },
+        {
+          "id": 2,
+          "principal": 1458523523,
+          "plazo-en-meses": 36,
+          "cliente": 538568,
+          "fecha-comienzo": "20/01/2021"
+        }
+      ]
+    }
+  ]
+}
